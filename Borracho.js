@@ -47,6 +47,6 @@ let caminata = (posicionF, posicionJ) => {
 
     return document.write(`<b>--RESULTADO DEL CALCULO--</b><br><br> Probabilidad: ${100/contadorIts}%  <br> Con: ${contadorIts} Intentos`); 
 }
-caminata(posicionJ, posicionX);
+caminata(posicionJ, posicionF);
 
 
